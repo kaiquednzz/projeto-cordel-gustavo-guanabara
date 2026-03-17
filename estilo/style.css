@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap'); /*Passion One*/
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); /*Sriracha*/
+
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #171717;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-family: Passion One;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+header p {
+    font-weight: 300;
+    font-family: Sriracha;
+    font-size: 16px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header p a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    font-family: Sriracha;
+    font-size: 30px;
+}
+
+section p {
+    margin-bottom: 50px;
+}
+
+.estrofe-2 {
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/background001.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    height: 500px;
+    padding: 30px;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+}
+
+.estrofe-2 p {
+    background-color: #0000007c;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.estrofe-4 {
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/background002.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    height: 500px;
+    padding: 30px;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.estrofe-4 p {
+    background-color: #0000007c;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #171717;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-family: Sriracha;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    main {
+        font-size: 20px;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    .estrofe-2 {
+        height: auto;
+    }
+
+    .estrofe-4 {
+        height: auto;
+    }
+}
